@@ -7,6 +7,7 @@ import { SearchInput } from "./components/SearchInput";
 import { Typography } from "./components/Typography";
 import { SavingsStatus } from "./components/SavingsStatus";
 
+
 function App() {
   return (
     <div className="bg-neutral-background min-h-screen">
