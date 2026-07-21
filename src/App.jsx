@@ -7,7 +7,7 @@ import { SearchInput } from "./components/SearchInput";
 import { Typography } from "./components/Typography";
 import { SavingsStatus } from "./components/SavingsStatus";
 import { Transactions } from "./components/Transactions";
-
+import { Accounts } from "./components/Accounts";
 
 function App() {
   return (
@@ -54,7 +54,7 @@ function App() {
                 Minhas contas
               </Card.Header>
               <Card.Body>
-                R$200
+                <Accounts />
               </Card.Body>
             </Card>
           </section>
