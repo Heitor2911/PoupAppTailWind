@@ -6,6 +6,7 @@ import { Main } from "./components/Main";
 import { SearchInput } from "./components/SearchInput";
 import { Typography } from "./components/Typography";
 import { SavingsStatus } from "./components/SavingsStatus";
+import { Transactions } from "./components/Transactions";
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
               Veja como estão suas finanças hoje.
             </Typography>
           </div>
-          <section>
+          <section className="grid grid-cols-2  items-stretch gap-6">
             <Card>
               <Card.Header>
                 Orçamento diário disponível:
@@ -45,7 +46,7 @@ function App() {
                 Movimentação financeira
               </Card.Header>
               <Card.Body>
-                R$200
+                <Transactions />
               </Card.Body>
             </Card>
             <Card>
