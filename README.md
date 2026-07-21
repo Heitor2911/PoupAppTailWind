@@ -1,16 +1,26 @@
-# React + Vite
+# 💰 PoupApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Aplicação de gestão de finanças pessoais focada em simplicidade, controle financeiro e uma experiência visual moderna.
 
-Currently, two official plugins are available:
+O **PoupApp** é um projeto desenvolvido no contexto dos cursos de Front-End da **Alura**, reestruturado com uma stack moderna focada em performance, produtividade no desenvolvimento e estilização rápida.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Este projeto foi construído utilizando as seguintes ferramentas:
 
-## Expanding the ESLint configuration
+| Tecnologia | Descrição |
+| :--- | :--- |
+| **[React](https://react.dev/)** | Biblioteca para construção de interfaces baseadas em componentes |
+| **[Vite](https://vitejs.dev/)** | Build tool ultrarrápida para desenvolvimento web |
+| **[Tailwind CSS](https://tailwindcss.com/)** | Framework CSS utility-first para estilização ágil e responsiva |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Funcionalidades
+
+- [x] **Visão Geral Financeira:** Exibição do saldo total, entradas e saídas.
+- [x] **Gestão de Transações:** Adição e listagem de receitas e despesas.
+- [x] **Categorização:** Organização de movimentações por categorias.
+- [x] **Design Responsivo:** Interface adaptada para dispositivos móveis e desktops com Tailwind CSS.
